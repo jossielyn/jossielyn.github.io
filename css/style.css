@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif; /* Default font */
+  font-family: "Unna", serif; /* Default font */
   background-color: #fafafa; /* Light background */
 }
 
@@ -14,6 +14,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Old Standard TT", serif; /* Classic font for navigation */
 }
 
 nav p {
@@ -24,6 +25,7 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-family: "Bodoni Moda SC", serif;
 }
 
 nav a:hover {
@@ -42,6 +44,7 @@ footer {
   padding: 10px;
   margin-top: 40px; /* Increase spacing */
   font-size: 0.9em;
+  font-family: "Unna", serif;
 }
 
 footer a {
@@ -58,12 +61,13 @@ footer a:hover {
   background-color: #f4f4f4;
   padding: 30px;
   text-align: center;
-  max-width: 50%;
+  max-width: 100%;
 }
 
 .splash h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Bodoni Moda SC", serif;
   color: #264653;
+  font-weight: 900;
 }
 
 .splash img {
@@ -72,6 +76,7 @@ footer a:hover {
 }
 
 .splash p {
+  font-family: "Unna", serif;
   font-size: 1.2em;
   color: #2a2a2a;
   font-weight: 400;
@@ -103,7 +108,7 @@ hr {
 }
 
 .education h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Old Standard TT", serif;
   color: #2a9d8f;
   border-bottom: 3px solid #2a9d8f;
   padding-bottom: 8px;
@@ -120,18 +125,21 @@ hr {
   font-size: 1em;
   color: #333;
   line-height: 1.6;
+  font-family: "Unna", serif;
 }
 
 .education-content .degree {
   font-weight: bold;
   font-size: 1.2em;
   color: #264653;
+  font-family: "Bodoni Moda SC", serif;
 }
 
 .education-content .gpa {
   font-style: italic;
   color: #555;
   font-size: 1em;
+  font-family: "Old Standard TT", serif;
 }
 
 .education-content .courses {
@@ -143,6 +151,7 @@ hr {
   color: #333;
   font-weight: 500;
   border-left: 4px solid #2a9d8f;
+  font-family: "Unna", serif;
 }
 
 /* Sections */
@@ -156,9 +165,8 @@ section {
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Section Headings */
 section h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Bodoni Moda SC", serif;
   color: #2a9d8f;
   border-bottom: 2px solid #2a9d8f;
   padding-bottom: 5px;
@@ -166,6 +174,7 @@ section h2 {
 
 /* Paragraph Styles */
 section p {
+  font-family: "Unna", serif;
   font-size: 1em;
   color: #444;
   line-height: 1.6;
@@ -176,6 +185,7 @@ section a {
   color: #e76f51;
   text-decoration: none;
   font-weight: bold;
+  font-family: "Old Standard TT", serif;
 }
 
 section a:hover {
@@ -187,6 +197,7 @@ section a:hover {
 ul {
   list-style-type: square;
   padding-left: 20px;
+  font-family: "Unna", serif;
 }
 
 dl {
@@ -194,6 +205,7 @@ dl {
   grid-template-columns: 1fr 2fr;
   gap: 10px;
   margin: 0;
+  font-family: "Old Standard TT", serif;
 }
 
 dl dt {
@@ -227,6 +239,7 @@ dl dd {
   background: white;
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Unna", serif;
 }
 
 .card:hover {
@@ -250,6 +263,7 @@ dl dd {
   padding-bottom: 5px;
   text-align: center; /* Centers title */
   width: 100%; /* Ensures consistent width */
+  font-family: "Bodoni Moda SC", serif;
 }
 
 .card ul {
@@ -259,79 +273,20 @@ dl dd {
   color: #555;
 }
 
-/* Center the Contact Section */
-.one-col {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 80vh; /* Centers vertically */
-}
-
-/* Style form */
+/* Form Styles */
 form {
-  width: 90%;
-  max-width: 450px; /* Keeps it balanced */
-  background: white;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centers everything inside */
-  text-align: left;
-  gap: 15px; /* Adds spacing between form elements */
-}
-
-/* Fix Input & Textarea Width */
-form input,
-form textarea {
-  width: 100%; /* Ensures all inputs are equal */
-  max-width: 400px; /* Prevents them from getting too wide */
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1em;
-  text-align: left; /* Keeps text aligned inside inputs */
-}
-
-/* Label Styling */
-form label {
-  font-weight: bold;
-  align-self: flex-start; /* Aligns labels to the left */
-  margin-bottom: 5px;
-  text-align: left;
-  width: 100%;
-}
-
-/* Center the Button */
-form button {
-  width: 100%;
-  max-width: 400px;
-  padding: 10px;
-  background: #2a9d8f;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1.1em;
-  text-align: center;
-}
-
-form button:hover {
-  background: #21867a;
+  font-family: "Unna", serif;
 }
 
 .thank-you {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh; /* Keeps it centered vertically */
+  min-height: 80vh;
   text-align: center;
   font-size: 1.5em;
   font-weight: bold;
-  background: none; /* Removes any box-like background */
-  box-shadow: none; /* Ensures no box shadow */
-  padding: 0; /* Removes any spacing that might create a box effect */
+  background: none;
+  box-shadow: none;
+  padding: 0;
 }
