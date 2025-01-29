@@ -96,7 +96,8 @@ footer a:hover {
 /* Horizontal Rules */
 hr {
   border: none;
-  border-top: 2px solid #ddd;
+  border-top: 3px solid #ddd;
+  width: 50%;
   margin: 20px 0;
 }
 
