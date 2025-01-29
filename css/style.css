@@ -96,9 +96,9 @@ footer a:hover {
 /* Horizontal Rules */
 hr {
   border: none;
-  border-top: 3px solid #ddd;
+  border-top: 3px dashed #2a9d8f;
   width: 50%;
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 /* Education Section Styling */
